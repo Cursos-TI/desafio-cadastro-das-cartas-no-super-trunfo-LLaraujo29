@@ -5,16 +5,16 @@ int main() {
     char estado1 = 'A';                 // Estado fictício
     char codigo1[4] = "A01";            // Código da carta
     int populacao1 = 2500000;           // População aproximada
-    float area1 = 331.4;                // Área em km²
-    float pib1 = 105.0;                 // PIB em bilhões
+    double area1 = 331.4;                // Área em km²
+    double pib1 = 105.0;                 // PIB em bilhões
     int pontosTuristicos1 = 15;         // Número de pontos turísticos
 
     // Carta 2 - Fortaleza
     char estado2 = 'B';                 // Estado fictício
     char codigo2[4] = "B02";            // Código da carta
     int populacao2 = 2700000;           // População aproximada
-    float area2 = 314.9;                // Área em km²
-    float pib2 = 67.0;                  // PIB em bilhões
+    double area2 = 314.9;                // Área em km²
+    double pib2 = 67.0;                  // PIB em bilhões
     int pontosTuristicos2 = 20;         // Número de pontos turísticos
 
     // Exibição da Carta 1

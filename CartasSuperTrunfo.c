@@ -8,8 +8,8 @@ int main() {
     float area1 = 331.4;                                                // Área em km²
     float pib1 = 105.0;                                                 // PIB em bilhões
     int pontosTuristicos1 = 15;                                         // Número de pontos turísticos
-    float densidade1 = populacao1 * 2500000 / area1 * 331.4;            // Densidade populacional    
-    float pibPerCapita1 = pib1 * 105.0 / populacao1* 2500000;           // PIB per capita
+    double densidade1 = populacao1 / area1;                             // Densidade populacional    
+    double pibPerCapita1 = (pib1 * 1000000000) / populacao1;            // PIB per capita em reais
 
 
     // Carta 2 - Fortaleza
@@ -19,9 +19,8 @@ int main() {
     float area2 = 314.9;                                                // Área em km²
     float pib2 = 67.0;                                                  // PIB em bilhões
     int pontosTuristicos2 = 20;                                         // Número de pontos turísticos
-    float densidade2 = populacao2 * 2700000 / area2 * 314.9;            // Densidade populacional
-    float pibPerCapita2 = pib2 * 67.0 / populacao2* 2700000;            // PIB per capita
-
+    double densidade2 = populacao2 / area2;                             // Densidade populacional
+    double pibPerCapita2 = (pib2 * 1000000000) / populacao2;            // PIB per capita em reais
 
 
     // calculo do super poder //
